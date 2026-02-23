@@ -224,15 +224,15 @@ details[open] .faqIcon {
   transform: rotate(180deg);
 }
 
-details[open] summary {
+:global(details[open] summary) {
   border-bottom: 1px solid rgba(0,0,0,0.05);
   margin-bottom: 1rem;
 }
 
-summary {
+:global(summary) {
   list-style: none; /* Hide default arrow */
 }
 
-summary::-webkit-details-marker {
+:global(summary::-webkit-details-marker) {
   display: none;
 }
